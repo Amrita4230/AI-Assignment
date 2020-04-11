@@ -218,8 +218,7 @@ def punch():
          tkinter.messagebox.showinfo( "Parking Management", "Login UnSuccessful")
          regno.set("")
          password.set("")
-         
-#-------------------------------------------------------------------------------------------------------------               
+                     
 labelfont = ('Arial', 20, 'bold')
 e4=Label(root,text="Parking Management System",bg="yellow",font=labelfont).place(x=490,y=120)
 c1=Canvas(root,relief="raised",border=2,width=400,height=200,bg="#b2fab4").place(x=480,y=200)
@@ -232,9 +231,6 @@ l2=Label(c1,text="Password",bg="#b2fab4",font = "Verdana 10 bold italic").place(
 bullet="\u2022"
 e2=Entry(c1,bd=2,textvariable=password,show=bullet).place(x=600,y=260)
 l3=Label(c1,text="Or",bg="#b2fab4",font="Elephant 8").place(x=650,y=330)
-
-   
-   
 
 b1=Button(c1,text="LOGIN",bg="#7DCEA0" ,font="Verdana 8 bold",activebackground="#85929E",command=punch,width=15).place(x=600,y=310)
 b2=Button(c1,text="Sign Up",bg="#7DCEA0",font="Verdana 8 bold",activebackground="#85929E",width=15,command=new).place(x=600,y=350)
